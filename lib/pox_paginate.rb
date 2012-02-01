@@ -13,13 +13,9 @@ require 'active_support/core_ext'
 require 'will_paginate/collection'
 # require 'will_paginate/finders/active_resource'
 
-module PoxPaginate
-  Root = File.dirname(__FILE__)
-end
-
-require "#{PoxPaginate::Root}/pox_paginate/version"
-require "#{PoxPaginate::Root}/pox_paginate/active_support"
-require "#{PoxPaginate::Root}/pox_paginate/remote_collection"
-require "#{PoxPaginate::Root}/pox_paginate/active_resource"
-require "#{PoxPaginate::Root}/pox_paginate/will_paginate"
-require "#{PoxPaginate::Root}/pox_paginate/xml_mini"
+require "pox_paginate/version"
+require "pox_paginate/active_support"
+require "pox_paginate/remote_collection"
+require "pox_paginate/active_resource"
+require "pox_paginate/will_paginate"
+require "pox_paginate/xml_mini"
